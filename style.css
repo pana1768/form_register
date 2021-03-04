@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;500;600;700;800&display=swap');
+*{
+    font-family: 'Nunito', sans-serif;
+
+}
+input, select, textarea{
+    display: block;
+    width: 100%;
+    margin: 10px 0 20px 0;
+    padding: 10px;
+    box-sizing: border-box;
+    border-radius: 8px;
+    border-style: solid;
+    border-width: 1px;
+    color: #3d3d3d;
+}
+form{
+    width: 40%;
+    box-shadow: 0 10px 15px -10px black;
+    padding: 30px 0;
+    border-radius: 13px;
+    background-color: white;
+    position: absolute;
+    left: 30%;
+    margin-top: 20px;
+}
+input[type=date]{
+    color: grey;
+}
+.conteiner{
+    width: 70%;
+    margin: 0 auto;
+}
+body{
+    background-image: url(more.jpg);
+    background-size: cover;
+}
+input[type="checkbox"]{
+    width: 15px;
+    height: 15px;
+    display: inline-block;
+    margin-right: 5px;
+}
+textarea{
+    min-width: 100%;
+    max-width: 100%;
+    min-height: 90px;
+    max-height: 130px;
+    height: 90px;
+}
+label[for="comment"]{
+    display: block;
+}
+.submit button{
+    margin: 0 auto;
+    padding: 10px 20px;
+    border-radius: 8px;
+    border: none;
+    outline: none;
+    background-color:#34536b ;
+    color: white;
+}
+.submit{
+    text-align: center;
+}
+label{
+    color: #34536b;
+    font-weight: 600;
+}
+h2{
+    text-align: center;
+    color:#34536b    ;
+}
